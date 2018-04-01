@@ -6,5 +6,4 @@ RUN apt-get update && \
 
 EXPOSE 4304
 
-ENTRYPOINT [ "owserver" ]
-CMD [ "--foreground" ]
+ENTRYPOINT [ "owserver", "--foreground", "-p", "0.0.0.0:4304" ]

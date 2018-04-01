@@ -7,7 +7,7 @@ This image includes an `owserver` installation for using [OneWire/OWFS](http://o
 To run a basic setup with a [DS9490R](http://owfs.org/index.php?page=usb-ds9490r) busmaster use the image as follows
 
 ```bash
-docker run --privileged -v /dev/bus/usb:/dev/bus/usb -p 4304:4304 -d mneundorfer/owserver -p 0.0.0.0:4304 -uall -uscan
+docker run --name owserver --privileged -v /dev/bus/usb:/dev/bus/usb -p 4304:4304 -d mneundorfer/owserver -uall -uscan
 ```
 
 This exposes the `owserver` on port `4304` to the outside world.
