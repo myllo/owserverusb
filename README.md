@@ -1,5 +1,9 @@
 # OWServer
 
+|   |   |   |   |
+| - | - | - | - |
+| ![Docker AB](https://img.shields.io/docker/automated/mneundorfer/owserver.svg) | ![Docker Build Status](https://img.shields.io/docker/build/mneundorfer/owserver.svg) | ![Docker Pulls](https://img.shields.io/docker/pulls/mneundorfer/owserver.svg) | ![Docker Stars](https://img.shields.io/docker/stars/mneundorfer/owserver.svg)
+
 This image includes an `owserver` installation for using [OneWire/OWFS](http://owfs.org/).
 
 ## Usage
@@ -18,4 +22,4 @@ For other uses please refer to the [manual](http://owfs.org/index.php?page=owser
 
 ## Further Usage
 
-Please also find the [`owhttpd`](http://google.com) image which plays together nicely with this.
+Please also find the [`owhttpd`](https://github.com/mneundorfer/owhttpd) image which plays together nicely with this.
