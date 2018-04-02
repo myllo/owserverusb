@@ -18,7 +18,13 @@ This exposes the `owserver` on port `4304` to the outside world.
 
 `--privileged` flag and `/dev/bus/usb` mount are [required for accessing the busmaster](https://stackoverflow.com/a/24231872).
 
-For other uses please refer to the [manual](http://owfs.org/index.php?page=owserver).
+For playing around/testing, you can attach fake devices
+
+```bash
+docker run --name owserver -p 4304:4304 -d mneundorfer/owserver --fake=DS18S20,DS2405
+```
+
+For other uses (e.g. I2C) please refer to the [manual](http://owfs.org/index.php?page=owserver).
 
 ## Further Usage
 
