@@ -8,10 +8,22 @@ This image includes an `owserver` and `owhttpd` installation for using [OneWire/
 
 ## Usage
 
+### Default Config
+
 ```bash
- docker run -it --name owfs --device /dev/bus/usb -p 2122:2121 -d mneundorfer/owserver:1.1.0
+docker run -it --name owfs --device /dev/bus/usb -p 2122:2121 -d mneundorfer/owserver:1.1.0
 ```
+
+### Custom OWFS Config
+
+```bash
+docker run -it --name owfs --device /dev/bus/usb -v `pwd`/owfs.conf:/etc/owfs.conf:ro -p 2122:2121 -d mneundorfer/owserver:1.1.0
+```
+
+### Enable FUSE Inside Container
 
 Mounting the sensors via `owfs -m` requires appropriate privileges, adding `--device /dev/fuse --cap-add SYS_ADMIN --security-opt apparmor:unconfined` should do the trick. But be aware of the security implications (see  https://stackoverflow.com/a/49021109/1110628)!
 
-For other uses (e.g. I2C) please refer to the [manual](http://owfs.org/index.php?page=owserver).
+```bash
+docker run -it --name owfs --device /dev/bus/usb --device /dev/fuse --cap-add SYS_ADMIN --security-opt apparmor:unconfined -p 2122:2121 -d mneundorfer/owserver:1.1.0
+```
