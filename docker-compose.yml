@@ -1,0 +1,9 @@
+version: '3'
+services:
+  owfs:
+    build: .
+    devices:
+      - /dev/bus/usb/
+    ports:
+      - 2122:2121
+      - 4304:4304
