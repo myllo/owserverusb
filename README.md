@@ -9,9 +9,17 @@ This image includes an `owserver` and `owhttpd` installation for using [OneWire/
 ## Usage
 
 ### Default Config
-
+Basic execution using USB OneWire device like DS9490R.
 ```bash
 docker run -it --name owfs --device /dev/bus/usb -p 2122:2121 -d mneundorfer/owserver:latest
+```
+#### Docker-Compose
+Build on your own container and run as docker-compose service. Config could be changed to use e.g. I2C devices.
+
+```bash
+git clone https://github.com/mneundorfer/owserver
+cd owserver
+docker-compose up
 ```
 
 ### Custom OWFS Config
