@@ -8,7 +8,7 @@ WARNING! This a Project Hail-Mary to get mneundorfer built OneWire/OWFS to work 
 
 I could not find any add-on to Home Assistant to do this (there are some which use IC2 or GPIO, of which I am not using here), so I was left with an option to try to modify one for myself or to accept that while using owserver as a separate container outside Home Assistant the Home Assistant could not be updated anymore. 
 
-If you are using IC2 with Home Assistant, take a look at https://github.com/lrybak/hassio-owserver . (I could not get it to work with USB hub, most likely my fault.)
+If you are using a 1-wire serial bus in your board/computer with Home Assistant, take a look at https://github.com/lrybak/hassio-owserver . (I could not get it to work with USB hub, most likely my fault.)
 
 If you are not using Home Assistant, do not use this, but look instead to work done by mneundorfer ( https://github.com/mneundorfer/owserver ). That works (with correct owfs.conf settings) with a USB hub, as a separate docker container, something Home Assistant policies do not accept. 
 
