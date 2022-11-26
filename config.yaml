@@ -1,1 +1,10 @@
-
+name: "owserverusb"
+description: "Home Assistant add-on for owserver using USB hub for 1-wire"
+version: "0.0.1"
+slug: "owserverusb"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
