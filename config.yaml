@@ -14,3 +14,4 @@ ports:
   4304/tcp: 4304
   2122/tcp: 2121
 startup: application
+boot: auto
