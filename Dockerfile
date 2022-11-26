@@ -2,7 +2,7 @@ FROM debian:stable-slim
 LABEL AUTHOR="myllo <tylsax@gmail.com>"
 LABEL \
   io.hass.type="addon" \
-  io.hass.arch="armhf|armv7|aarch64|i386|amd64"
+  io.hass.arch="armhf|armv7|aarch64|amd64"
 
 RUN apt-get update && \
     apt-get install -y owfs
