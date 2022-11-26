@@ -1,5 +1,5 @@
 FROM debian:stable-slim
-LABEL AUTHOR="Maximilian Neundorfer <code@mneundorfer.de>"
+LABEL AUTHOR="myllo <tylsax@gmail.com>"
 
 RUN apt-get update && \
     apt-get install -y owfs
