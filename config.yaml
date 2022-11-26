@@ -15,3 +15,4 @@ ports:
   2122/tcp: 2121
 startup: application
 boot: auto
+usb: true
