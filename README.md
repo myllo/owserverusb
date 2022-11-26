@@ -12,7 +12,7 @@ If you are not using Home Assistant, do not use this, but look instead to work d
 
 As of 26 Nov:
 
-THIS DOES NOT WORK YET AS INTENDED, BUT IS A WORK IN PROGRESS. DO NOT USE THIS.
+THIS DOES NOT WORK YET AS INTENDED, BUT IS A WORK IN PROGRESS. DO NOT TRY TO USE THIS, WON'T WORK.
 
 The instructions below are the same as on the page https://github.com/mneundorfer/owserver , as no modifications to instructions itself have been made yet. The instructions do not work under Home Assistant. 
 
