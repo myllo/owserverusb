@@ -1,5 +1,9 @@
 FROM debian:stable-slim
 LABEL AUTHOR="myllo <tylsax@gmail.com>"
+LABEL \
+  io.hass.version="VERSION" \
+  io.hass.type="addon" \
+  io.hass.arch="armhf|aarch64|i386|amd64"
 
 RUN apt-get update && \
     apt-get install -y owfs
