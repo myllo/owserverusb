@@ -1,6 +1,7 @@
 name: "owserverusb"
 description: "Home Assistant add-on for owserver using USB hub for 1-wire"
 version: "0.0.1"
+# Above incorrect. Version of the add-on. If you are using a docker image with the image option, this needs to match the tag of the image that will be used.
 slug: owserverusb
 init: false
 arch:
