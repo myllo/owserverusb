@@ -6,13 +6,15 @@
 
 WARNING! This a first blunder to get mneundorfer built OneWire/OWFS to work under Home Assistant as an add-on and to use a USB hub (DS9490R). 
 
-I could not find any add-on to Home Assistant to do this (there are some which use IC2 or GPIO, of which I am not using here), so I was left with option to try to modify one for myself or to accept that while using owserver as a separate container outside Home Assistant the Home Assistant could not be updated anymore.)
+I could not find any add-on to Home Assistant to do this (there are some which use IC2 or GPIO, of which I am not using here), so I was left with option to try to modify one for myself or to accept that while using owserver as a separate container outside Home Assistant the Home Assistant could not be updated anymore.
 
 If you are not using Home Assistant, do not use this, but look instead to work done by mneundorfer ( https://github.com/mneundorfer/owserver ). That works (with correct owfs.conf settings) with a USB hub, as a separate docker container, something Home Assistant policies do not accept. 
 
 As of 26 Nov 2022:
 
 THIS DOES NOT WORK YET AS INTENDED, BUT IS A WORK IN PROGRESS. DO NOT TRY TO USE THIS, WON'T WORK.
+
+The developmet will be slow, as I my RaspberryPi 4 for development seems to be permanently stuck in the queue and has not arrived yet. Thus I will have to use my production unit for developments, and there is a very limited time window I can take it off from regulating heating my house. Come on, RaspberryPI Foundation, wouldn't it to be time to give some boards to your original target customers and delay some of the big commercial ones for a change?
 
 The instructions below are the same as on the page https://github.com/mneundorfer/owserver , as no modifications to instructions itself have been made yet. The instructions do not work under Home Assistant. 
 
