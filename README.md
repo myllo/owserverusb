@@ -6,7 +6,7 @@
 
 WARNING! This a Project Hail-Mary to get mneundorfer built OneWire/OWFS to work under Home Assistant as an add-on and to use a USB hub (DS9490R). 
 
-I could not find any add-on to Home Assistant to do this (there are some which use IC2 or GPIO, of which I am not using here), so I was left with an option to try to modify one for myself or to accept that while using owserver as a separate container outside Home Assistant the Home Assistant could not be updated anymore. 
+I could not find any add-on to Home Assistant to do this (there are some which use IC2 or GPIO, I am not using those), so I was left with an option to try to modify one for myself or to accept that while using owserver as a separate container outside Home Assistant the Home Assistant could not be updated anymore. 
 
 If you are using a 1-wire serial bus in your board/computer with Home Assistant, take a look at https://github.com/lrybak/hassio-owserver . (I could not get it to work with USB hub, most likely my fault.)
 
