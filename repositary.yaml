@@ -1,0 +1,3 @@
+name: Home Assistant owserverusb (1-Wire over USB hub) add-on repository
+url: 'https://github.com/myllo/owserverusb'
+maintainer: myllo <tylsax@gmail.com>
