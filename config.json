@@ -1,0 +1,23 @@
+{
+  "name": "owserverusb (owserver over USB hub for 1-Wire)",
+  "version": "0.0.1",
+  "slug": "owserverusb",
+  "description": "onewire server to read 1-Wire devices over USB hub",
+  "url": "https://github.com/myllo/owserverusb",
+  "startup": "system",
+  "init": false,
+  "arch": ["aarch64", "amd64", "armhf", "armv7"],
+  "boot": "auto",  
+  "uart": true,
+  "options": {
+    "owhttpd": true,
+    "device": ""
+  },
+  "schema": {
+    "owhttpd": "bool",
+    "device": "str?"
+  },
+  "ingress": true,
+  "panel_icon": "mdi:alpha-w-box",
+  "image": "ghcr.io/myllo/owserverusb/{arch}"
+}
