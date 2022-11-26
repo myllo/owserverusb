@@ -6,11 +6,15 @@
 
 WARNING! This a first blunder to get mneundorfer built OneWire/OWFS to work under Home Assistant as an add-on and to use a USB hub (DS9490R).
 
-If you are not using Home Assistant, do not use this, but look instead to work done by mneundorfer ( https://github.com/mneundorfer/owserver ). That works (with correct config.yml settings) with a USB hub.
+If you are not using Home Assistant, do not use this, but look instead to work done by mneundorfer ( https://github.com/mneundorfer/owserver ). That works (with correct config.yml settings) with a USB hub, as a separate docker container, something Home Assistant policies do not accept. 
 
 As of 26 Nov, 2022, this is still the same as mneundorfer owserver, ie. not working yet (as add-on).
 
 THIS DOES NOT WORK YET AS INTENDED, BUT IS A WORK IN PROGRESS. DO NOT USE THIS.
+
+The instructions below are the same as on the page https://github.com/mneundorfer/owserver , as no modifications have been made yet. 
+
+By the way, I raise my hat to mneundorfer for having his values in proper order. Take a look at his avatar photo (22 Nov 2022). What he is carrying is the most precious thing in the world.
 
 -----
 
