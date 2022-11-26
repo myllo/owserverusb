@@ -10,7 +10,7 @@ I could not find any add-on to Home Assistant to do this (there are some which u
 
 If you are not using Home Assistant, do not use this, but look instead to work done by mneundorfer ( https://github.com/mneundorfer/owserver ). That works (with correct owfs.conf settings) with a USB hub, as a separate docker container, something Home Assistant policies do not accept. 
 
-As of 26 Nov:
+As of 26 Nov 2022:
 
 THIS DOES NOT WORK YET AS INTENDED, BUT IS A WORK IN PROGRESS. DO NOT TRY TO USE THIS, WON'T WORK.
 
