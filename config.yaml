@@ -10,3 +10,5 @@ arch:
   - armv7
   - i386
 url: https://github.com/myllo/owserverusb
+ports:
+  4403/tcp: 4403
