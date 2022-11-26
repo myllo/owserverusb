@@ -4,11 +4,11 @@ services:
     build: .
     devices:
       - /dev/bus/usb/
-      - /dev/fuse
+#      - /dev/fuse
     ports:
       - 2122:2121
       - 4304:4304
     volumes:
       - ./owfs.conf:/etc/owfs.conf:ro
-    cap_add:
-      - SYS_ADMIN
+#    cap_add:
+#      - SYS_ADMIN
