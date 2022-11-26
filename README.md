@@ -14,7 +14,7 @@ If you are not using Home Assistant, do not use this, but look instead to work d
 
 As of 26 Nov 2022:
 
-THIS DOES NOT WORK YET AS INTENDED, BUT IS A WORK IN PROGRESS. DO NOT TRY TO USE THIS, WON'T WORK. No warranties of any kind.
+THIS DOES NOT WORK YET AT ALL, IT IS A WORK IN PROGRESS. DO NOT TRY TO USE THIS, WON'T WORK. When the first tests are succesful, this page will be updated. Most likely not before some months into year 2023.
 
 Development process will be slow, as my RaspberryPi 4 for development purposes seems to be permanently stuck in the allocation queue caused by global  chip shortage and has not arrived yet. Thus I will have to use my production unit for development, and there is a very limited time window I can take it off from regulating heating of my house. 
 
