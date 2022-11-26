@@ -13,3 +13,4 @@ url: https://github.com/myllo/owserverusb
 ports:
   4304/tcp: 4304
   2122/tcp: 2121
+startup: application
