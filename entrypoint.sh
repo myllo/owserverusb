@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#
 service owserver start
 service owhttpd start
 
