@@ -4,6 +4,11 @@
 | - | - | - | - | - |
 | ![Docker AB](https://img.shields.io/docker/automated/mneundorfer/owserver.svg) | ![Docker Build Status](https://img.shields.io/docker/build/mneundorfer/owserver.svg) | ![Docker Pulls](https://img.shields.io/docker/pulls/mneundorfer/owserver.svg) | ![Docker Stars](https://img.shields.io/docker/stars/mneundorfer/owserver.svg) | [![Docker Layers](https://images.microbadger.com/badges/image/mneundorfer/owserver.svg)](https://microbadger.com/images/mneundorfer/owserver)
 
+WARNING! This a first blunder to get mneundorfer built OneWire/OWFS to work under Home Assistant as a add-on.
+If you are not using Home Assistant, do not use this, but look instead to work done by mneundorfer ( https://github.com/mneundorfer/owserver )
+
+As of 26 Nov, 2022, this is still the same as mneundorfer owserver, ie. not working yet as add-on.
+
 This image includes an `owserver` and `owhttpd` installation for using [OneWire/OWFS](http://owfs.org/).
 
 ## Usage
