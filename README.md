@@ -16,11 +16,9 @@ As of 26 Nov 2022:
 
 THIS DOES NOT WORK YET AS INTENDED, BUT IS A WORK IN PROGRESS. DO NOT TRY TO USE THIS, WON'T WORK. No warranties of any kind.
 
-Development process will be slow, as my RaspberryPi 4 for development purposes seems to be permanently stuck in the allocation queue and has not arrived yet. Thus I will have to use my production unit for development, and there is a very limited time window I can take it off from regulating heating of my house. Come on, RaspberryPI Foundation, wouldn't it to be time, even temporiraly, to prioritize the original target customers and delay some of the big commercial ones for a change?
+Development process will be slow, as my RaspberryPi 4 for development purposes seems to be permanently stuck in the allocation queue caused by global  chip shortage and has not arrived yet. Thus I will have to use my production unit for development, and there is a very limited time window I can take it off from regulating heating of my house. 
 
 The instructions below are the same as on the page https://github.com/mneundorfer/owserver , as no modifications to instructions itself have been made yet. The instructions do not work under Home Assistant. 
-
-By the way, I raise my hat to mneundorfer for having his values in proper order. Take a look at his avatar photo (22 Nov 2022). What he is carrying is the most precious thing in the world.
 
 -----
 
