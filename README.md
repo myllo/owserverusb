@@ -4,7 +4,7 @@
 | - | - | - | - | - |
 
 
-WARNING! This a first blunder to get mneundorfer built OneWire/OWFS to work under Home Assistant as an add-on and to use a USB hub (DS9490R). 
+WARNING! This a first Hail Mary to get mneundorfer built OneWire/OWFS to work under Home Assistant as an add-on and to use a USB hub (DS9490R). 
 
 I could not find any add-on to Home Assistant to do this (there are some which use IC2 or GPIO, of which I am not using here), so I was left with option to try to modify one for myself or to accept that while using owserver as a separate container outside Home Assistant the Home Assistant could not be updated anymore.
 
