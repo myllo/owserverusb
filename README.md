@@ -10,6 +10,8 @@ If you are not using Home Assistant, do not use this, but look instead to work d
 
 As of 26 Nov, 2022, this is still the same as mneundorfer owserver, ie. not working yet (as add-on).
 
+THIS DOES NOT WORK YET AS INTENDED, BUT IS A WORK IN PROGRESS. DO NOT USE THIS.
+
 -----
 
 This image includes an `owserver` and `owhttpd` installation for using [OneWire/OWFS](http://owfs.org/).
